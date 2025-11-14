@@ -1,11 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RESUME</title>
+  <style>
+    /* Simple, beginner-friendly CSS (level 1) */
+    body{font-family: Arial, sans-serif; background:#f2f4f7; margin:0; padding:20px}
+    .container{max-width:800px; margin:0 auto; background:#fff; padding:16px; border:1px solid #ddd}
+    .header{overflow:auto}
+    .left{float:left; width:30%}
+    .right{float:right; width:68%}
+    .avatar{width:70px; height:70px; background:#007bff; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:bold}
+    h1{margin:0 0 6px 0; font-size:20px}
+    p.small{margin:4px 0; color:#555}
+
+    /* contact and lists */
+    ul{padding-left:18px}
+    li{margin-bottom:6px}
+
+    /* simple table for education */
+    table{width:100%; border-collapse:collapse; margin-top:8px}
+    th, td{padding:8px; border:1px solid #eee; text-align:left}
+
+    /* clear floats */
+    .clear{clear:both}
+
+    /* responsive very simple */
+    @media (max-width:600px){
+      .left, .right{float:none; width:100%}
+      .avatar{margin-bottom:8px}
+    }
+  </style>
 </head>
 <body>
-    
+  <div class="container">
+    <div class="header">
+      <div class="left">
+        <div class="avatar">SS</div>
+      </div>
+      <div class="right">
+        <h1>SARTHAK SRIVASTAVA</h1>
+        <p class="small">CSE AIML ENGINEER</p>
+        <p class="small">Email: sarthaksri842.gmail.com | Phone: +91 8423053044</p>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">MY PROFILE</h2>
+      <p style="margin-top:0"> HELLO , MY NAME IS SARTHAK SRIVASTAVA </p>
+    </section>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">EDUCATION </h2>
+      <table>
+        <tr>
+          <th>DEGREE</th>
+          <td>BTECH IN Computer Science (AIML) -- ABES ENGINEERING COLLEGE</td>
+        </tr>
+        <tr>
+          <th>OTHER</th>
+          <td>FULL STACK WEB DEVELOPMENT</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">Skills</h2>
+      <ul>
+        <li>HTML, CSS, basic JavaScript</li>
+        <li>Microsoft Office / Google Workspace</li>
+        <li>Teamwork, communication</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">Projects / Other</h2>
+      <ul>
+        <li> CREATED MY FIRST RESUME</li>
+      </ul>
+    </section>
+
+  </div>
 </body>
 </html>

@@ -71,7 +71,7 @@
 
     .nav-right {
       display: flex;
-      gap: 15px;
+      gap: 29px;
       font-size: 12px;
     }
 
@@ -85,7 +85,7 @@
 
     .products-row {
       display: flex;
-      gap: 15px;
+      gap: 34px;
     }
 
     .product-card {
@@ -126,6 +126,67 @@
         width: 100%;
         height: 100 px;
     }
+
+
+    .footer {
+    background-color: #111;
+    color: #fff;
+    padding-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding: 15px 0;
+    font-size: 14px;
+    background-color: #0f0f0f;
+}
+
   </style>
 </head>
 <body>
@@ -166,14 +227,14 @@
 
     <div class="products-row">
       <div class="product-card">
-        <img src="https://images.pexels.com/photos/3945650/pexels-photo-3945650.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Headphones">
+        <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-max-select-202409-blue_FV1?wid=976&hei=916&fmt=jpeg&qlt=90&.v=azQxRkVJKzd6V3J0aGNqWFhLMzBmaVZsckZUTTZZd1pFb3lRTGNlYkF0Yy9BSXRGSWdwVEs0NXdLd3JPRVQ3TGROL2hTdHRlcnVBMFhCNlFSVHgrS01jL2RQeWJYZ1FmWXUzRFBMSzJrTlJTZy9JeUNjV2pzbzd6anYzTldHVWw" alt="Headphones">
         <p class="product-title">Wireless Headphones</p>
         <p class="product-price">₹1,299</p>
         <button>Add to Cart</button>
       </div>
 
       <div class="product-card">
-        <img src="https://images.pexels.com/photos/18154464/pexels-photo-18154464/free-photo-of-smartwatch-on-a-person-s-wrist.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Watch">
+        <img src="https://m.media-amazon.com/images/G/31/IMG24/Smart_Watches/Jupiter25/1400x800_E2LIVE._SX1242_QL85_.jpg" alt="Watch">
         <p class="product-title">Smart Watch</p>
         <p class="product-price">₹1,999</p>
         <button>Add to Cart</button>
@@ -187,13 +248,46 @@
       </div>
 
       <div class="product-card">
-        <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Backpack">
+        <img src="https://m.media-amazon.com/images/I/71pKJ+Mjd8L._SX679_.jpg" alt="Backpack">
         <p class="product-title">Laptop Backpack</p>
         <p class="product-price">₹1,499</p>
         <button>Add to Cart</button>
       </div>
     </div>
   </div>
+
+
+  <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>About</h3>
+            <p>This is a demo website made for learning HTML & CSS.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: axyz@email.com</p>
+            <p>Phone: +91 987655XXXX</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Your Website Name | All Rights Reserved</p>
+    </div>
+</footer>
+
 
 </body>
 </html>

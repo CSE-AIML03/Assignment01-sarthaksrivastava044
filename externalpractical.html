@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>E Commerce website</title>
+    
+<style>
+*{
+    margin: 0px;
+    padding:0px;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(206, 9, 9);
+    padding: 1rem;
+   
+}
+h1{
+    color: white;
+    font-weight: bolder;
+}
+.right button{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(206, 9, 9) ;
+    border: none;
+    padding-top: 0.3rem;
+    cursor:pointer;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background-color: rgb(211, 208, 208);
+}
+.searching{
+    width:400px;
+    max-width: 60%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    
+}
+.search button{
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    background-color: rgb(206, 9, 9);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 7px;
+}
+.hero{
+    display: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://www.shutterstock.com/image-photo/film-negative-frames-grey-background-260nw-2223986645.jpg);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.hero h2{
+    color: white;
+    font-size: rem;
+    font: bolder;
+}
+.hero button{
+    background-color:rgb(206, 9, 9) ;
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.movie{
+    display: flex;
+    justify-content:space-evenly;
+    overflow-x: scroll;
+}
+.card h3{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding-top: 0.5rem;
+}
+.card{
+    border: 0.2rem solid grey;
+    text-align: center ;
+    height :480px;
+    background-color: white;
+    margin: 0.8rem;
+}
+.image1,.image2,.image3,.image4,.image5,.image6{
+    height: 400px;
+    width: 275px;
+}
+</style>
+</head>
+<body>
+    <header>
+      <div class="head">
+        <div class="logo">
+            <div class="left">
+                <h1>BOOK MY SHOW</h1>
+            </div>
+            <div class="right"><button>Movies</button>
+                <button>Events</button>
+                <button>Sports</button>
+                <button>More</button>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" class="searching" placeholder="Search for Movies,Events">
+            <button>Search</button>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="hero">
+            <h2>EXPIEREINCE THE BEST MOVIE EVER</h2>
+            <button>BOOK NOW</button>
+        </div>
+
+ <div class="mover">
+            <h2>POPULAR MOVIES</h2>
+        </div>
+        <div class="movie">
+            <div class="card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4zLzEwICA1MTlLKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00452447-aftsuxaepg-portrait.jpg" alt="" class="image1">
+                <h3>DHURANDHAR</h3>
+            </div>
+            <div class="card">
+              <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4xLzEwICAyMS40SysgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00441877-rcbgbkfvqr-portrait.jpg" alt="" class="image2">
+             <h3>ZOOTOPIA</h3>
+            </div>
+            <div class="card">
+              <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni42LzEwICAxMC4zSysgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00426670-jzarcynnmg-portrait.jpg" alt="" class="image3">
+              <h3>TU MERI MAIN </h3>
+            </div>
+            <div class="card">
+              <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni45LzEwICA1LjNLKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00448751-hmxkzbakkp-portrait.jpg" alt="" class="image4">
+              <h3>ANACONDA</h3>
+            </div>
+            <div class="card">
+              <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC44LzEwICAyMi43SysgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00388415-abscwcztnr-portrait.jpg" alt="" class="image5">
+              <h3>IKKIS</h3>
+            </div>
+             </div>
+         
+         
+
+    </main>
+    
+</body>
+</html>
+        </div>
